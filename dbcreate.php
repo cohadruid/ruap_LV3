@@ -1,5 +1,5 @@
 <?php
- $host = "dcoric-dbserver.mysql.database.azure.com";
+ $host = "dcoric-mysqldbserver.mysql.database.azure.com";
  $user = "ruapUser@dcoric-mysqldbserver";
  $pwd = "Epicpass2";
  $db = "ruapDB";
