@@ -65,10 +65,10 @@ $user = "ruapUser@ruapdbserver";
 $pwd = "Ruap1234";
 $db = "ruapdb";*/
 
-$host = "localhost";
-$user = "dcoric";
-$pwd = "epicpass";
-$db = "ruapcrc";
+$host = "dcoric-mysqldbserver.mysql.database.azure.com";
+$user = "ruapUser@dcoric-mysqldbserver";
+$pwd = "Epicpass2";
+$db = "ruapDB";
 // Connect to database.
 $conn = mysqli_connect($host, $user, $pwd, $db);
 if (mysqli_connect_errno())
